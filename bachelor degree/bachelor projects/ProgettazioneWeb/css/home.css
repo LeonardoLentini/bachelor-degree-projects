@@ -1,0 +1,79 @@
+body {
+    background-image: url('../immagini/Sfondo.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0.5em;
+    position: absolute;
+    text-align: center;
+    top: 0.5em;
+    right: 1em;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 15px;
+    border: 1px solid white; 
+}
+
+#logout-img{
+    float: right;
+    height: 1.3em;
+    width: 1.3em;
+}
+
+#quadrato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+    width: 40em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    margin-top: 2.5em;
+}
+
+#gioca, #classifiche, #tutorial, #statistiche{
+    border: 2px white solid;
+    margin: 2em;
+    border-radius: 50%;
+    height: 12em;
+    width: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#gioca:hover, #classifiche:hover, #tutorial:hover, #statistiche:hover{
+    transform: scale(1.1);
+}
+
+#gioca{
+    background-color: #eef1ee;
+}
+
+#classifiche{
+    background-color: #c7ecd7;
+}
+
+#tutorial{
+    background-color: #fae9e1;
+}
+
+#statistiche{
+    background-color: #c0e6e7;
+}

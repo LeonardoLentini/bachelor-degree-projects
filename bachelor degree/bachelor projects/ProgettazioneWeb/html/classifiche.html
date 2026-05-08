@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classifiche</title>
+        <script src="../javascript/classifiche.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/classifiche.css">
+    </head>
+    <body>
+        <h1>Classifiche</h1>
+        <div id="user">
+            <span id="username">
+                <script>
+                    let username = localStorage.username;
+                    document.write(username);
+                </script>
+            </span>
+            <button id="home-btn">Home</button>
+        </div>
+        
+        <div class="container">
+            <span>FACILE</span>
+            <span>MEDIO</span>
+            <span>DIFFICILE</span>
+            <div id="facile"></div>
+            <div id="medio"></div>
+            <div id="difficile"></div>
+        </div>
+    </body>
+</html>

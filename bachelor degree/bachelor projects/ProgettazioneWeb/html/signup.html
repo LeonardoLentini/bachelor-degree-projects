@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="../css/signup.css">
+        <script src="../javascript/signup.js"></script>
+        <title>signup</title>
+    </head>
+    <body>
+        <h1 id="titolo">PRATO FIORITO</h1>
+            <div id="signup">
+                <form id="form-signup">
+                    <label for="username">Username:</label> 
+                    <input type="text" id="username" placeholder="username" required> 
+                    <span id="usr-err"></span>
+                    
+                    <label for="password">Password:</label> 
+                    <input type="password" id="password" placeholder="password" required> 
+                    <label for="mostraPassword1"><input type="checkbox" id="mostraPassword1"> Mostra password </label>
+                    <span id="psw-err1"></span>
+
+                    <label for="ripetiPassword">Conferma password:</label> 
+                    <input type="password" id="ripetiPassword" placeholder="conferma password" required> 
+                    <label for="mostraPassword2"><input type="checkbox" id="mostraPassword2"> Mostra password </label>
+                    <span id="psw-err2"></span>
+                </form>
+                <button id="signup-btn">REGISTRATI</button>
+            </div>
+    </body>
+</html>

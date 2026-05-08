@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <script src="../javascript/home.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/home.css">
+    </head>
+    <body>
+        <div id="user">
+            <span>
+                <script>
+                    let username = localStorage.username;
+                    document.write(username);
+                </script>
+            </span>
+            <button id="logout-btn">
+                <span>
+                    LOGOUT
+                    <img id="logout-img" alt="simbolo di logout" src="../immagini/immagine_logout.png">
+                </span>
+            </button>
+        </div>
+        <div id="quadrato">
+            <div id="gioca">GIOCA</div>
+            <div id="tutorial">TUTORIAL</div>
+            <div id="statistiche">STATISTICHE</div>
+            <div id="classifiche">CLASSIFICHE</div>
+        </div>
+    </body>
+</html>

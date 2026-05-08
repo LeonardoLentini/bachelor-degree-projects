@@ -1,0 +1,65 @@
+body{
+    background-image: url('../immagini/Sfondo.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+h1{
+    color: green;
+    font-size: 5em;
+    font-family: cursive;
+    text-align: center;
+}
+
+#signup {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1.5em;
+    border-radius: 10px;
+    display: inline-block;
+    width: 20%;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 1em;
+    color: darkgreen;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 94%;
+    padding: 0.8em;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+button {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+#usr-err, #psw-err1, #psw-err2{
+    color: red;
+    font-weight: bold;
+}
+
+#signup-complete{
+    font-size: x-large;
+}
+
+p{
+    text-align: center;
+}

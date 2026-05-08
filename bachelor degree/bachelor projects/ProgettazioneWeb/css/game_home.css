@@ -1,0 +1,172 @@
+body {
+    background-image: url('../immagini/Sfondo.png');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#user {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0.5em;
+    position: absolute;
+    text-align: center;
+    top: 0.5em;
+    right: 1em;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 15px;
+    border: 1px solid white; 
+}
+
+#username{
+    padding: 0.2em;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+#home-btn {
+    background-color: rgba(255, 255, 255, 0.479);
+    color: #0030cc;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#home-btn:hover {
+    background-color: #f82121af;
+}
+
+#head-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: rgba(0, 128, 0, 0.8);
+    color: white;
+    margin-top: 2em;
+}
+
+#difficoltà {
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#tempo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#game_stats>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#fiore_img, .fiori{
+    height: 24px;
+    width: 27px;
+}
+
+#tabella {
+    display: grid;
+    justify-content: center;    
+    align-content: center;
+    margin: auto;
+}
+
+#table{
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+.Facile>tr>td{
+    height: 50px;
+    width: 50px;
+    font-size: xx-large;
+}
+
+.Medio>tr>td{
+    height: 40px;
+    width: 40px;
+    font-size: x-large;
+}
+
+.Difficile>tr>td{
+    height: 30px;
+    width: 30px;
+    font-size: x-large;
+}
+
+#table>tr>td{
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.pari{
+    background-color: rgb(160, 230, 160);
+}
+
+.dispari{
+    background-color: rgb(100, 200, 100);
+}
+
+.show_pari{
+    background-color: rgb(201, 170, 139);
+}
+
+.show_dispari{
+    background-color: rgb(228, 193, 158);
+}
+
+.pari:hover, .dispari:hover{
+    background-color: rgb(184, 255, 204);
+}
+
+#finePartita{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+    top: 27.4%;
+    left: 43.5%;
+    z-index: -1;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#newGame{
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #4CAF50;
+    margin-bottom: 2em;
+}
+
+#endGame{
+    margin-top: 2em;
+    font-size: 25px;
+    font-weight: bolder;
+}

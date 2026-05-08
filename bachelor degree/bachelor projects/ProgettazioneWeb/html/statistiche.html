@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Statistiche</title>
+        <script src="../javascript/statistiche.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/statistiche.css">
+    </head>
+    <body>
+        <h1>Statistiche dell'utente</h1>
+        <div id="user">
+            <span id="username">
+                <script>
+                    let username = localStorage.username;
+                    document.write(username);
+                </script>
+            </span>
+            <button id="home-btn">Home</button>
+        </div>
+        <div id="global-stats">
+            Partite totali completate: <span id="game-glb">0</span></div>
+        <div class="container">
+            <div id="facile">
+                <button id="facile-btn">FACILE</button>
+                <span id="stats-facile" class="diff-stats">Partite completate: 0<br><br>Miglior tempo: 00:00<br><br></span>
+            </div>
+            <div id="medio">
+                <button id="medio-btn">MEDIO</button>
+                <span id="stats-medio" class="diff-stats">Partite completate: 0<br><br>Miglior tempo: 00:00<br><br></span>
+            </div>
+            <div id="difficile">
+                <button id="difficile-btn">DIFFICILE</button>
+                <span id="stats-difficile" class="diff-stats">Partite completate: 0<br><br>Miglior tempo: 00:00<br><br></span>
+            </div>
+        </div>
+        <div id="tempi">
+            <div id="primo">
+                /
+            </div>
+            <div id="secondo">
+                /
+            </div>
+            <div id="terzo">
+                /
+            </div>
+            <div id="quarto">
+                /
+            </div>
+            <div id="quinto">
+                /
+            </div>
+        </div>
+        
+    </body>
+</html>

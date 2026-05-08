@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gioca</title>
+        <link rel="stylesheet" type="text/css" href="../css/game_home.css">
+        <script src="../javascript/game_home.js"></script>
+    </head>
+    <body>
+        <div id="user">
+            <span id="username">
+                <script>
+                    let username = localStorage.username;
+                    document.write(username);
+                </script>
+            </span>
+            <button id="home-btn">Home</button>
+        </div>
+        <div id="finePartita">
+            
+        </div>
+        <div id="tabella">
+            <div id="head-bar">
+                <select id="difficoltà">
+                    <option>Facile</option>
+                    <option>Medio</option>
+                    <option>Difficile</option>
+                </select>
+                <div id="tempo">
+                    00:00
+                </div>
+                <div id="game_stats">
+                    <span>
+                        <span id="numero_bombe"></span>
+                        <img src="../immagini/fioreGameStats.png" alt="numero fiori" id="fiore_img">
+                    </span>
+                </div>
+            </div>    
+        </div>
+    </body>
+</html>
