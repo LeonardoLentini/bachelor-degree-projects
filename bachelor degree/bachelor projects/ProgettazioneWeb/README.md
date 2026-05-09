@@ -19,7 +19,7 @@ Il sistema offre:
 
 ## 🚀 Guida all'Installazione (Localhost con XAMPP)
 
-Per far funzionare il progetto (il cui zip è scaricabile nella sezione realese) sul proprio computer, è necessario configurare un ambiente server locale.
+Per far funzionare il progetto (il cui zip è scaricabile nella sezione release) sul proprio computer, è necessario configurare un ambiente server locale.
 
 ### 1. Preparazione dell'Ambiente
 1.  Scaricare e installare [XAMPP](https://www.apachefriends.org/it/index.html).
